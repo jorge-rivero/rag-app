@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+celery[redis]
+redis
+python-dotenv
+langchain
+langchain-openai
+langchain-community
+faiss-cpu
+pypdf
+tiktoken
+prometheus-client
+prometheus-fastapi-instrumentator
+python-multipart
+pydantic

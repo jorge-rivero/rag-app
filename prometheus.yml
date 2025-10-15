@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: api
+    static_configs:
+      - targets: ["api:8000"]   # FastAPI /metrics
+    metrics_path: /metrics
+
+  - job_name: celery_exporter
+    static_configs:
+      - targets: ["celery-exporter:9540"]  # /metrics
