@@ -120,6 +120,9 @@ rag-app/
 │   └── settings.py
 ├── docs/
 │   └── *.txt,*.pdf,*.md
+├── vector_store/
+│   └── index.faiss
+│   └── index.pkl
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
